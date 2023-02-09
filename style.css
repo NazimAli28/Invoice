@@ -1,232 +1,287 @@
-body{
+body {
     overflow-x: hidden;
 }
-*{
-    margin:0;
-    padding:0;
+
+* {
+    margin: 0;
+    padding: 0;
 }
-.section{
-    padding:50px;
+
+.section {
+    padding: 50px;
 }
-.container .thankyou{
+
+.container .thankyou {
     background-color: #187bcd;
-    padding:50px 0px;
+    padding: 50px 0px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container .thankyou h1{
+
+.container .thankyou h1 {
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 45px;
-    color:#fff;
+    color: #fff;
 }
-.container .thankyou p{
+
+.container .thankyou p {
     font-weight: 600;
     font-size: 22px;
     text-align: center;
-    color:#fff;
+    color: #fff;
 }
-.container .thankyou .item1 img{
-    width:150px;
+
+.container .thankyou .item1 img {
+    width: 150px;
 }
-.container .invoice{
+
+.container .invoice {
     margin: 40px 0px;
 }
-.container .invoice .paras{
-     background-color:#1e3f66;
-     color:#fff;
+
+.container .invoice .paras {
+    background-color: #1e3f66;
+    color: #fff;
     box-shadow: 2px 2px 3px #187bcd;
-     padding:15px 15px 15px 20px;
-     /* font-weight: 400; */
+    padding: 15px 15px 15px 20px;
+    /* font-weight: 400; */
 
 }
 
-.container .tab td{
-    color:#666;
+.container .tab td {
+    color: #666;
 }
-.container .amount{
-  
-    display:flex;
-    justify-content:space-between;
-    background-color:#187bcd;;
-    color:#fff;
-   box-shadow: 2px 2px 2px #187bcd;
-    padding:5px;
+
+.container .amount {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #187bcd;
+    ;
+    color: #fff;
+    box-shadow: 2px 2px 2px #187bcd;
+    padding: 5px;
 
 }
-.container .amount .amount_item .total{
-    padding-left:20px;
+
+.container .amount .amount_item .total {
+    padding-left: 20px;
     font-weight: 500;
 }
-.container .amount .amount_item .total1{
-    padding-right:20px;
-    font-weight:500 ;
+
+.container .amount .amount_item .total1 {
+    padding-right: 20px;
+    font-weight: 500;
 }
+
 .container .payment {
-    margin:35px 0px 0px 0px;
+    margin: 35px 0px 0px 0px;
     text-align: center;
 }
-.container .payment .paras1{
-    background-color:#1e3f66;
-    color:#fff;
-   box-shadow: 2px 1px 0px #187bcd;
-    padding:15px 15px 15px 20px;
+
+.container .payment .paras1 {
+    background-color: #1e3f66;
+    color: #fff;
+    box-shadow: 2px 1px 0px #187bcd;
+    padding: 15px 15px 15px 20px;
     /* text-align: center; */
-    
+
 }
-.container .payment .follow{
+
+.container .payment .follow {
     background-color: #f5f5f5;
-    margin-top:-16px;
+    margin-top: -16px;
     /* padding: 77px; */
     padding: 20px 0px 10px 0px;
 }
-.container .payment .follow .small{
-    width:320px;
+
+.container .payment .follow .small {
+    width: 320px;
 }
-.container .payment .follow .note{
-    color:red;
-    margin-top:35px;
+
+.container .payment .follow .note {
+    color: red;
+    margin-top: 35px;
 }
-.container .main{
+
+.container .main {
     text-align: center;
 }
-.container .head{
+
+.container .head {
     text-align: center;
     background-color: #187bcd;
-    padding:20px;
+    padding: 20px;
 }
-.container .head .client{
-    color:#fff;
+
+.container .head .client {
+    color: #fff;
     font-weight: 500;
 }
-.container .head .rate{
-    color:#fff;
+
+.container .head .rate {
+    color: #fff;
 }
+
 /* .container .sat{
     background-color:#fff;
     padding:10px;
 } */
-.container .out{
+.container .out {
     color: #187bcd;
-    padding:10px;
+    padding: 10px;
     font-weight: 500;
 }
-.container .main .paras2{
+
+.container .main .paras2 {
     background-color: #187bcd;
-    padding:10px;
-    margin-top:-12px;
-    color:#fff;
+    padding: 10px;
+    margin-top: -12px;
+    color: #fff;
 
 }
-.container .main .paras3{
-    background-color:#7710d1;
-    padding:10px;
-    margin-top:-16px;
-    color:#fff;
+
+.container .main .paras3 {
+    background-color: #7710d1;
+    padding: 10px;
+    margin-top: -16px;
+    color: #fff;
     font-weight: 500;
 
 }
+
 .container .main .group {
     background-color: #f5f5f5;
-    padding:10px;
+    padding: 10px;
     margin-top: -16px;
 
 }
-.container .main .paras4{
-    color:#fff;
+
+.container .main .paras4 {
+    color: #fff;
     font-weight: 500;
-    background-color:#7710d1;
-    padding:10px;
+    background-color: #7710d1;
+    padding: 10px;
 }
-.container .main .grp2{
+
+.container .main .grp2 {
     background-color: #f5f5f5;
-    padding:25px;
-    margin-top:-17px;
+    padding: 25px;
+    margin-top: -17px;
 }
-.container .main .grp2 img{
-    width:100px;
+
+.container .main .grp2 img {
+    width: 100px;
 }
+
+.group img {
+    width: 15em;
+}
+
 @media screen and (max-width: 1024px) {
-.container .main .head span img{
-    width:25px;
+    .container .main .head span img {
+        width: 25px;
+    }
+
+    .container .main .paras2 {
+        font-size: 15px;
+    }
+
+    .container .main .group img {
+        width: 207px;
+    }
 }
-.container .main .paras2{
-font-size: 15px;
-}
-.container .main .group img {
-   width:207px;
-}
-}
-@media screen and (max-width:425px){
-    .container .thankyou h1{
+
+@media screen and (max-width:425px) {
+    .container .thankyou h1 {
         font-size: 28px;
 
 
     }
-.container .thankyou .item1 img{
-    width:120px;
-    
+
+    .container .thankyou .item1 img {
+        width: 120px;
+
+    }
+
+    .container .payment .follow p {
+        font-size: 14px;
+    }
+
+    .container .payment .follow .small {
+        width: 210px;
+    }
+
+    .container .payment .follow .note {
+        font-size: 14px;
+    }
 }
-.container .payment .follow p{
-    font-size:14px;
-}
-.container .payment .follow .small{
-    width:210px;
-}
-.container .payment .follow .note{
-    font-size: 14px;
-}
-}
-@media screen and (max-width:375px){
-    .container .thankyou h1{
+
+@media screen and (max-width:375px) {
+    .container .thankyou h1 {
         font-size: 25px;
     }
-    .container .thankyou .item1 img{
-        width:90px;
-        
+
+    .container .thankyou .item1 img {
+        width: 90px;
+
     }
+
     .container .tab td {
         font-size: 15px;
     }
-    .container .payment .follow .note{
+
+    .container .payment .follow .note {
         font-size: 12px;
     }
 }
-@media screen and (max-width:320px){
-    .container .thankyou h1{
+
+@media screen and (max-width:320px) {
+    .container .thankyou h1 {
         font-size: 17px;
     }
-    .container .thankyou p{
-            font-size: 14px;
+
+    .container .thankyou p {
+        font-size: 14px;
     }
-    .container .thankyou .item1 img{
-        width:70px;
-        
+
+    .container .thankyou .item1 img {
+        width: 70px;
+
     }
+
     .container .tab td {
         font-size: 10px;
     }
-    .container .invoice .paras{
-        font-size:15px;
-    }
-    .container .payment .follow .small{
-        width:150px;
-    }
-    .container .payment .follow p{
-        font-size:11px;
-    }
-    .container .payment .follow .note{
-        font-size: 9px;
-    }
-    .container .out{
+
+    .container .invoice .paras {
         font-size: 15px;
     }
-    .container .main .paras2{
+
+    .container .payment .follow .small {
+        width: 150px;
+    }
+
+    .container .payment .follow p {
+        font-size: 11px;
+    }
+
+    .container .payment .follow .note {
+        font-size: 9px;
+    }
+
+    .container .out {
+        font-size: 15px;
+    }
+
+    .container .main .paras2 {
         font-size: 14px;
-        }
-        .container .main .group img {
-            width:185px;
-         }
+    }
+
+    .container .main .group img {
+        width: 185px;
+    }
 }
